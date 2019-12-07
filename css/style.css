@@ -1,0 +1,40 @@
+@keyframes fondo{
+	20%{ background-color:  pink; }
+	40%{ background-color:  purple; }
+	80%{ background-color:  cyan; }
+	90%{ background-color:  green; }
+	90%{ background-color:  orange; }
+}
+
+body{
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.container{
+	background-color: rgba(0,0,0,0.3);
+	margin-top: 10%;
+	border-radius: 10px;
+	width: 600px;
+	height: 300px;
+	color: white;
+}
+
+.container:hover{
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.input-field{
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%
+}
+
+.border{
+	transform: scale(1,1,);
+}
